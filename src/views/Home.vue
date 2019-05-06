@@ -1,9 +1,11 @@
 <template>
     <v-app :color="'#ffffff'">
         <v-toolbar :color="'#ffffff'" app fixed>
-            <v-container class="text-left">
-                <v-toolbar-title>Shop Market</v-toolbar-title>
-            </v-container>
+            <v-layout>
+                <v-container class="text-left">
+                    <v-toolbar-title>Shop Market</v-toolbar-title>
+                </v-container>
+            </v-layout>
         </v-toolbar>
 
         <v-content>
